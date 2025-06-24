@@ -1,0 +1,47 @@
+{
+    "api": {
+      "endpoint": "https://development.vms.staging.rokerplus.com/api/api/UserGroup/Create"
+    },
+    "headers": {
+      "accept": "text/plain",
+      "Content-Type": "application/json",
+      "Token": "7pISu/sDS7lZnLsf+hVGe01qR9oNsKMfXKQysty3fDxQ0DVwtLCjWU9ZGu7Rbbk6"
+    },
+    "body": {
+      "GroupName": null,
+      "NewGroupName": null,
+      "SubClientId": 71,
+      "IsServCounter": true,
+      "IManager": {
+        "IsView": true,
+        "IsAdd": true,
+        "IsApprove": true
+      },
+      "IAdmin": {
+        "IsView": true,
+        "IsAdd": true,
+        "IsApprove": true
+      },
+      "IWorx": {
+        "IsView": true,
+        "IsAdd": true,
+        "IsApprove": true
+      },
+      "INotice": {
+        "IsView": true,
+        "IsAdd": true,
+        "IsApprove": true
+      },
+      "IReport": {
+        "IsView": true,
+        "IsAdd": true,
+        "IsApprove": true
+      },
+      "MTOSQQA": {
+        "IsView": true,
+        "IsAdd": true,
+        "IsApprove": true
+      }
+    }
+  }
+  

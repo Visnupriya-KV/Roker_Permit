@@ -1,0 +1,10 @@
+{
+    "api": {
+      "endpoint": "https://development.vms.staging.rokerplus.com/api/api/tickets/getbycitationno/SPTY474"
+    },
+    "headers": {
+      "accept": "text/plain",
+      "Token": "7pISu/sDS7lZnLsf+hVGe01qR9oNsKMfXKQysty3fDxQ0DVwtLCjWU9ZGu7Rbbk6"
+    }
+  }
+  

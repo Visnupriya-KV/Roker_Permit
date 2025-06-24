@@ -1,0 +1,15 @@
+{
+    "url": "https://development.vms.staging.rokerplus.com/Login.aspx",
+    "login": {
+      "username": "administrator",
+      "password": "DemoUser@1"
+    },
+    "location": {
+      "externalLocationId": "22",
+      "address": "20 Cooper Square, New York, NY 10003, USA",
+      "city": "NewYork",
+      "state": "USA",
+      "zipCode": "10003"
+    },
+    "successMessage": "Location is saved successfully"
+}

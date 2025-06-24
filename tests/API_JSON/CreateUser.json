@@ -1,0 +1,22 @@
+{
+    "api": {
+      "endpoint": "https://development.vms.staging.rokerplus.com/api/api/User/Create"
+    },
+    "headers": {
+      "accept": "text/plain",
+      "Content-Type": "application/json",
+      "Token": "7pISu/sDS7lZnLsf+hVGe01qR9oNsKMfXKQysty3fDxQ0DVwtLCjWU9ZGu7Rbbk6"
+    },
+    "body": {
+        "UserName": null,
+        "FirstName": "Automationfirst",
+        "MiddleName": "AutomationMiddle",
+        "LastName": "AutomationLast",
+        "EmailAddress": null,
+        "Badge": "007",
+        "UserGroupName": "Test test",
+        "SubClientId": 71
+      }
+      
+  }
+  

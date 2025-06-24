@@ -1,0 +1,14 @@
+{
+    "api": {
+      "endpoint": "https://development.vms.staging.rokerplus.com/api/ticketlookupByLicensePlate",
+      "queryParams": {
+        "agency": "OTTCI",
+        "licensePlate": "100028",
+        "province": "AB"
+      }
+    },
+    "headers": {
+      "accept": "text/plain"
+    }
+  }
+  

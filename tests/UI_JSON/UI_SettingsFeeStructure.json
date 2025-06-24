@@ -1,0 +1,11 @@
+{
+    "url": "https://development.vms.staging.rokerplus.com/Login.aspx",
+    "login": {
+        "username": "administrator",
+        "password": "DemoUser@1"
+    },
+    "feeStructure": {
+        "days": "1",
+        "fees": "1"
+    }
+}

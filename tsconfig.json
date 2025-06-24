@@ -1,0 +1,25 @@
+// /Users/visnupriyakv/Desktop/Playwright_Automation_VSCEXtenstion/tsconfig.json
+{
+    "compilerOptions": {
+      "module": "CommonJS", // Module system for VS Code extensions
+      "target": "ES2020",    // Target modern JavaScript version
+      "outDir": "out",       // Output directory for compiled JS files
+      "rootDir": "src",      // Root directory of source TS files
+      "lib": [
+        "ES2020"
+      ],
+      "sourceMap": true,     // Generate source maps for debugging
+      "strict": true,        // Enable strict type checking
+      "esModuleInterop": true, // Allows default imports from commonjs modules
+      "skipLibCheck": true,  // Skip type checking of declaration files
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+      "src/**/*" // Include all files in the src directory
+    ],
+    "exclude": [
+      "node_modules", // Exclude node_modules
+      ".vscode-test"  // Exclude test runner files
+    ]
+  }
+  

@@ -1,0 +1,77 @@
+{
+  "name": "playwright-automation-vsc-extension",
+  "displayName": "Playwright Automation Helper",
+  "version": "0.0.1",
+  "description": "A VS Code extension to help run Playwright automation scripts.",
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "vscode",
+    "extension"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "scripts": {
+    "run:csv": "ts-node runSelectedTests.ts",
+    "test": "playwright test",
+    "test:single": "playwright test tests/myApiTest.spec.js --reporter=list,allure-playwright",
+    "allure:report": "allure-commandline generate allure-results --clean -o allure-report",
+    "allure:open:withall": "allure-commandline open allure-report",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts"
+  },
+  "activationEvents": [
+    "onCommand:extension.runSelectedApiTests",
+    "workspaceContains:Testcase.csv"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.runSelectedApiTests",
+        "title": "Run Selected API Tests (from CSV)",
+        "icon": "$(play)"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "extension.runSelectedApiTests",
+          "when": "resourceFilename == 'Testcase.csv'",
+          "group": "navigation@1"
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.5.0",
+    "luxon": "^3.6.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.7.0",
+    "@playwright/test": "^1.52.0",
+    "@types/csv-parse": "^1.1.12",
+    "@types/luxon": "^3.4.2",
+    "@types/node": "^18.x",
+    "@types/vscode": "^1.80.0",
+    "@typescript-eslint/eslint-plugin": "^6.x",
+    "@typescript-eslint/parser": "^6.x",
+    "allure-commandline": "^2.34.0",
+    "allure-playwright": "^3.2.2",
+    "eslint": "^8.x",
+    "nodemailer": "^7.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vscode-test": "^1.x"
+  }
+}

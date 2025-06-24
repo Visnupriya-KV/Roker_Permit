@@ -1,0 +1,12 @@
+{
+  "api": {
+    "uploadEndpoint": "https://development.vms.staging.rokerplus.com/api/api/appeal-request-documents"
+  },
+  "headers": {
+    "accept": "text/plain"
+  },
+  "formData": {
+    "filePath": "../../assert/api-testing1.jpg",
+    "CitationNo": "SPTY474"
+  }
+}
