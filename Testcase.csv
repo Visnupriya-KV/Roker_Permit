@@ -1,20 +1,3 @@
 S.No,Control,TestCaseID,fileName,Module,Author,Description
-1,N,API_AppealRequest_Test,AppealRequest,API_Regression,Visnu,API_Check  
-2,N,API_CheckTicketAppeal_Test,CheckTicketAppeal,API_Regression,Visnu,API_Check  
-3,N,API_CheckTicketEligibleAppeal_Test,CheckTicketEligibleAppeal,API_Regression,Visnu,API_Check  
-4,N,API_UpdateTicketEnforcement_Test,UpdateTicketEnforcement,API_Regression,Visnu,API_Check  
-5,N,API_Getticketstage_Test,Getticketstage,API_Regression,Visnu,API_Check  
-6,N,API_AppealUploadDoc_Test,AppealUploadDoc,API_Regression,Visnu,API_Check  
-7,N,API_Get_CitationNoDetails,getbycitationno,API_Regression,Visnu,API_Check  
-8,N,API_TicketLookup_ByLicensePlate_Test,TicketlookupByLicensePlate,API_Regression,Visnu,API_Check  
-9,N,API_TicketLookup_ByTicketNo_Test,ticketlookupByTicketNo,API_Regression,Visnu,API_Check  
-10,N,API_Payment_Test,Payment,API_Regression,Visnu,API_Check  
-11,N,API_CreateUserGroup_Test,CreateUserGroup,API_Regression,Visnu,API_Check  
-12,N,API_UpdateUserGroup_Test,createAndUpdateUser,API_Regression,Visnu,API_Check  
-13,N,API_DeleteUserGroup_Test,createAndDeleteUserGroup,API_Regression,Visnu,API_Check  
-14,N,API_CreateUser_Test,CreateUser,API_Regression,Visnu,API_Check  
-15,N,API_UpdateUser_Test,updateUserGroup,API_Regression,Visnu,API_Check  
-16,N,API_ActivateUser_Test,createAndActivateUser,API_Regression,Visnu,API_Check  
-17,N,API_DeactivateUser_Test,createAndDeactivateUser,API_Regression,Visnu,API_Check  
-18,Y,UI_SettingsLocation_Test,UI_SettingsLocation,UI_Regression,Visnu,UI Test to add a new location and verify success message
-19,Y,UI_SettingsFeeStructure_Test,UI_SettingsFeeStructure,UI_Regression,Visnu,UI Test to add a new fee structure and verify success message
+1,Y,API_svcConsole_TenantList_Test,TenantList,API_Regression,Visnu,API_Check  
+2,Y,API_svcConsole_TenantStatusDelete_Test,TenantStatusDelete,API_Regression,Visnu,API_Check
