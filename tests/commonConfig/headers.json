@@ -1,0 +1,6 @@
+{
+  "Content-Type": "application/json",
+  "Accept": "application/json",
+  "accept": "application/json, text/plain, */*",
+  "language": "en"
+}

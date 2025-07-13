@@ -1,0 +1,7 @@
+{
+  "accountConfiguration": "https://api.develop.rokersmartpermits.com/permit/admin/accountsettings/accountconfiguration",
+  "tenantConfiguration": "https://api.develop.rokersmartpermits.com/poweradmin/Tenant/configuration",
+  "tenantList": "https://api.develop.rokersmartpermits.com/poweradmin/tenant/list",
+  "deleteTenantStatus": "https://api.develop.rokersmartpermits.com/poweradmin/tenant/status/delete"
+
+}
