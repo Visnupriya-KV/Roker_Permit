@@ -1,0 +1,6 @@
+{
+  "loginUrl": "https://citycanada.app.develop.rokersmartpermits.com/homepage/default",
+  "email": "kavyaanand021123@gmail.com",
+  "password": "Roker@2024",
+  "tokenEndpoint": "/connect/token"
+}

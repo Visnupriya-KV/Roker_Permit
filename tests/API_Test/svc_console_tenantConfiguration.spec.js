@@ -1,10 +1,11 @@
-// filepath: [svc_Console_tenantList.spec.js](http://_vscodecontentref_/0)
 const { test, expect, request } = require('@playwright/test');
 const loginInfo = require('../commonConfig/loginInfo.json');
 const apiEndpoints = require('../commonConfig/apiEndpoints.json');
 const headers = require('../commonConfig/headers.json');
+const locCode = require('../API_JSON/svc_console_tenantConfiguration.json');
 
-test('API_svcConsole_TenantList_Test: Tenant List API', async ({ page }) => {
+
+test('API_svcConsole_TenantConfiguration_Test: Tenant Configuration API', async ({ page }) => {
   let accessToken = '';
 
   // Capture the token from the login response
@@ -39,18 +40,16 @@ test('API_svcConsole_TenantList_Test: Tenant List API', async ({ page }) => {
     },
   });
 
-  // Make the API call to the Tenant List endpoint
-  const response = await apiContext.post(apiEndpoints.tenantList, {
-    data: { searchText: '' },
-  });
+  // Make the API call to the Tenant Configuration endpoint
+  const response = await apiContext.get(
+    `${apiEndpoints.tenantConfiguration}/${locCode.locationCode}`
+  );
 
   // Validate the API response
   expect(response.ok()).toBeTruthy();
   const responseBody = await response.json();
-  console.log('API Response:', responseBody);
+  console.log('Tenant Configuration API Response:', responseBody);
 
   // Add assertions based on the expected response structure
   expect(responseBody).toBeDefined();
-  expect(Array.isArray(responseBody)).toBeTruthy(); // Validate that the response is an array
-  expect(responseBody.length).toBeGreaterThan(0); // Ensure the array is not empty
 });
