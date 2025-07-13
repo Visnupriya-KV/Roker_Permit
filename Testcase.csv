@@ -1,3 +1,4 @@
 S.No,Control,TestCaseID,fileName,Module,Author,Description
 1,Y,API_svcConsole_TenantList_Test,TenantList,API_Regression,Visnu,API_Check  
 2,Y,API_svcConsole_TenantStatusDelete_Test,TenantStatusDelete,API_Regression,Visnu,API_Check
+3,Y,API_svcConsole_TenantConfiguration_Test,TenantConfiguration,API_Regression,Visnu,API_Check

@@ -1,0 +1,6 @@
+{
+  "loginUrl": "https://nso.app.staging.rokersmartpermits.com/homepage/default",
+  "email": "vince@yopmail.com",
+  "password": "Roker@123",
+  "tokenEndpoint": "/connect/token"
+}
