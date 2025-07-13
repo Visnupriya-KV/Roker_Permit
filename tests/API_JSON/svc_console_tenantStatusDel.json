@@ -1,10 +1,10 @@
 {
-    "loginUrl": "https://citycanada.app.develop.rokersmartpermits.com/homepage/default",
-    "email": "kavyaanand021123@gmail.com",
-    "password": "Roker@2024",
+    "loginUrl": "https://citycanada.app.qa.rokersmartpermits.com/homepage/default",
+    "email": "EnduserQA@mailinator.com",
+    "password": "EnduserQA@123",
     "tokenEndpoint": "/connect/token",
     "api": {
-      "deleteTenantStatus": "https://api.develop.rokersmartpermits.com/poweradmin/tenant"
+      "deleteTenantStatus": "https://api.qa.rokersmartpermits.com/poweradmin/tenant"
     },
     "headers": {
       "accept": "application/json, text/plain, */*"
