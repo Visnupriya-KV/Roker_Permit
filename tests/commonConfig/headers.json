@@ -1,6 +1,9 @@
 {
   "Content-Type": "application/json",
+  "content-type": "application/json",
   "Accept": "application/json",
   "accept": "application/json, text/plain, */*",
-  "language": "en"
+  "language": "en",
+  "origin": "https://poweradmin.develop.rokersmartpermits.com",
+  "referer": "https://poweradmin.develop.rokersmartpermits.com/"
 }

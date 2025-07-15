@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
     "loginUrl": "https://citycanada.app.qa.rokersmartpermits.com/homepage/default",
     "email": "EnduserQA@mailinator.com",
     "password": "EnduserQA@123",
+=======
+    "loginUrl": "https://citycanada.app.develop.rokersmartpermits.com/homepage/default",
+    "email": "automationtest@mailinator.com",
+    "password": "Autotest@123",
+>>>>>>> 5c407c7 (created new APIs on Dev)
     "tokenEndpoint": "/connect/token",
     "api": {
       "deleteTenantStatus": "https://api.qa.rokersmartpermits.com/poweradmin/tenant"
