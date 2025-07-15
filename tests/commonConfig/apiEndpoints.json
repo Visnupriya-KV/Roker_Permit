@@ -2,6 +2,16 @@
   "accountConfiguration": "https://api.develop.rokersmartpermits.com/permit/admin/accountsettings/accountconfiguration",
   "tenantConfiguration": "https://api.develop.rokersmartpermits.com/poweradmin/Tenant/configuration",
   "tenantList": "https://api.develop.rokersmartpermits.com/poweradmin/tenant/list",
-  "deleteTenantStatus": "https://api.develop.rokersmartpermits.com/poweradmin/tenant/status/delete"
+  "deleteTenantStatus": "https://api.develop.rokersmartpermits.com/poweradmin/tenant/status/delete",
+  "poweradminConfiguration": "https://api.develop.rokersmartpermits.com/poweradmin/Tenant/poweradminconfiguration",
+  "tenantById": "https://api.develop.rokersmartpermits.com/poweradmin/Tenant",
+  "tenantLanguages": "https://api.develop.rokersmartpermits.com/poweradmin/Tenant/languages",
+  "emailNotificationTemplatesList": "https://api.develop.rokersmartpermits.com/poweradmin/emailtemplates/EmailNotificationTemplates/list",
+  "emailNotificationTemplateById": "https://api.develop.rokersmartpermits.com/poweradmin/emailtemplates/EmailNotificationTemplates",
+  "emailNotificationTemplateEdit": "https://api.develop.rokersmartpermits.com/poweradmin/emailtemplates/EmailNotificationTemplates/edit",
+  "getProductDetail": "https://api.develop.rokersmartpermits.com/poweradmin/productdetail/getproductdetail",
+  "reportPaymentsReconciliation": "https://api.develop.rokersmartpermits.com/poweradmin/report/payments-reconciliation",
+  "reportPaymentsReconciliationExport": "https://api.develop.rokersmartpermits.com/poweradmin/report/payments-reconciliation-export",
+  "tenantExists": "https://api.develop.rokersmartpermits.com/poweradmin/Tenant/exists"
 
 }
