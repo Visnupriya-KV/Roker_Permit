@@ -1,0 +1,6 @@
+{
+  "name": "Tenant Expiry Email to Roker Power Admin User",
+  "template": "<p>Hello {RokerAdministratorName}, <br><br>This is a system-generated email notification regarding a tenant user account – {TenantName}, will be expired on {ExpiryDate}.<br><br>If you wish to extend the access for the tenant, you can {LoginUrl} to the Roker account and update the expiry date for the tenant’s account.&nbsp;<br><br>Thank you!<br>Team Roker<br>© 2020-2021 Copyright - Roker, all rights reserved.</p>",
+  "subjectLine": "Roker tenant account – {TenantName} will expire on {ExpiryDate}",
+  "notificationTemplateId": 2
+}
