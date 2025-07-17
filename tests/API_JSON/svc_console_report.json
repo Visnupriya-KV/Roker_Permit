@@ -1,0 +1,13 @@
+{
+  "skip": 0,
+  "take": 10,
+  "sort": [
+    {
+      "field": "createdOn",
+      "dir": "asc"
+    }
+  ],
+  "fromDate": "5/30/2025",
+  "toDate": "6/30/2025",
+  "metaTenantId": 1
+}

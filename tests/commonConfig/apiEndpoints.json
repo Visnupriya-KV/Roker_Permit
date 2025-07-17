@@ -12,5 +12,6 @@
   "getProductDetail": "https://api.develop.rokersmartpermits.com/poweradmin/productdetail/getproductdetail",
   "reportPaymentsReconciliation": "https://api.develop.rokersmartpermits.com/poweradmin/report/payments-reconciliation",
   "reportPaymentsReconciliationExport": "https://api.develop.rokersmartpermits.com/poweradmin/report/payments-reconciliation-export",
-  "tenantExists": "https://api.develop.rokersmartpermits.com/poweradmin/Tenant/exists"
+  "tenantExists": "https://api.develop.rokersmartpermits.com/poweradmin/Tenant/exists",
+  "report": "https://api.develop.rokersmartpermits.com/poweradmin/report"
 }
