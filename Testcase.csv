@@ -11,4 +11,5 @@ S.No,Control,TestCaseID,fileName,Module,Author,Description
 10,Y,API_svcConsole_ReportPaymentsReconciliation_Test,ReportPaymentsReconciliation,API_Regression,Visnu,API_Check,
 11,Y,API_svcConsole_TenantExists_Test,TenantExists,API_Regression,Visnu,API_Check,
 12,Y,API_svcConsole_ReportPaymentsReconciliationExport_Test,ReportPaymentsReconciliationExport,API_Regression,Visnu,API_Check,
-13,Y,API_svcConsole_GetProductDetail_Test,GetProductDetail,API_Regression,Visnu,API_Check
+13,Y,API_svcConsole_GetProductDetail_Test,GetProductDetail,API_Regression,Visnu,API_Check,
+14,Y,API_svcConsole_Report_Test,Report,API_Regression,Visnu,API_Check
