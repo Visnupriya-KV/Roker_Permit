@@ -1,0 +1,7 @@
+{
+    "name": "Activate ParkingSpot",
+    "emailTemplate": "<p>Hi {UserName}, <br><br>You have successfully activated your {ParkingFacilityName}<br><br>Now users can book your parking.<br><br>Thank you! <br>Augusta University Medical Center</p><p><br>© {Year} Roker Inc, Technology by SP+.</p>",
+    "subjectLine": "Parking spot activated",
+    "notificationTemplateId": 31
+  }
+  
