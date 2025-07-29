@@ -15,7 +15,11 @@
   "tenantExists": "https://api.develop.rokersmartpermits.com/poweradmin/Tenant/exists",
   "report": "https://api.develop.rokersmartpermits.com/poweradmin/report",
   "reportAnalytic": "https://api.develop.rokersmartpermits.com/poweradmin/report/analytic",
-  "reportExport": "https://api.develop.rokersmartpermits.com/poweradmin/report/export"
+  "reportExport": "https://api.develop.rokersmartpermits.com/poweradmin/report/export",
+  "notificationEmailList": "https://api.develop.rokersmartpermits.com/notification/email/list",
+  "notificationEmailDetail": "https://api.develop.rokersmartpermits.com/notification/email/31/detail",
+  "notificationEmailTemplateEdit": "https://api.develop.rokersmartpermits.com/notification/email/edit"
+
 
 
 }
