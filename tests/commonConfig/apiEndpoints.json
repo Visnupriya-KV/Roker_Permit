@@ -18,8 +18,15 @@
   "reportExport": "https://api.develop.rokersmartpermits.com/poweradmin/report/export",
   "notificationEmailList": "https://api.develop.rokersmartpermits.com/notification/email/list",
   "notificationEmailDetail": "https://api.develop.rokersmartpermits.com/notification/email/31/detail",
-  "notificationEmailTemplateEdit": "https://api.develop.rokersmartpermits.com/notification/email/edit"
-
+  "notificationEmailTemplateEdit": "https://api.develop.rokersmartpermits.com/notification/email/edit",
+  "notificationList": "https://api.develop.rokersmartpermits.com/notification/preference/list",
+  "sendEmailNotification": "https://api.develop.rokersmartpermits.com/notification/preference/sendEmail",
+  "sendEmailWithAttachment": "https://api.develop.rokersmartpermits.com/notification/preference/sendEmailWithAttachment",
+  "sendEmailService": "https://api.develop.rokersmartpermits.com/notification/preference/SendEmailService",
+  "emailServiceList": "https://api.develop.rokersmartpermits.com/notification/preference/EmailServiceList",
+  "emailServiceStatusById": "https://api.develop.rokersmartpermits.com/notification/preference/EmailServiceStatus",
+  "sendManualEmail": "https://api.develop.rokersmartpermits.com/notification/preference/sendManualEmail",
+  "sendManualEmailWithAttachment": "https://api.develop.rokersmartpermits.com/notification/preference/sendManualEmailWithAttachment"
 
 
 }
