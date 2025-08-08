@@ -15,6 +15,14 @@ S.No,Control,TestCaseID,fileName,Module,Author,Description
 14,Y,API_svcConsole_Report_Test,Report,API_Regression,Visnu,API_Check,
 15,Y,API_ReportAnalytic_Test,ReportAnalytic,API_Regression,Visnu,API_Check,
 16,Y,API_ReportExport_Test,ReportExport,API_Regression,Visnu,API_Check,
-17,Y,API_NotificationEmailList_Test,NotificationEmailList,API_Regression,Visnu,API_Check,
-18,Y,API_NotificationEmailDetail_Test,NotificationEmailDetail,API_Regression,Visnu,API_Check
-19,Y,API_NotificationEmailTemplateEdit_Test,NotificationEmailTemplateEdit,API_Regression,Visnu,API_Check
+17,Y,API_NotificationEmailDetail_Test,NotificationEmailList,API_Regression,Visnu,API_Check,
+18,Y,API_NotificationEmailList_Test,NotificationEmailDetail,API_Regression,Visnu,API_Check,
+19,Y,API_svcNotification_EmailServiceList_Test,NotificationEmailTemplateEdit,API_Regression,Visnu,API_Check,
+20,Y,API_svcNotification_EmailServiceStatusById_Test,NotificationList,API_Regression,Visnu,API_Check,
+21,Y,API_svcNotification_NotificationList_Test,EmailServiceList,API_Regression,Visnu,API_Check,
+22,Y,API_svcNotification_SendEmail_Test,SendManualEmailWithAttachment,API_Regression,Visnu,API_Check,
+23,Y,API_svcNotification_SendEmailService_Test,SendManualEmail,API_Regression,Visnu,API_Check,
+24,Y,API_svcNotification_SendEmailWithAttachment_Test,EmailServiceStatus,API_Regression,Visnu,API_Check,
+25,Y,API_svcNotification_SendManualEmail_Test,SendEmailServiceStatus,API_Regression,Visnu,API_Check,
+26,Y,API_svcNotification_SendManualEmailWithAttachment_Test,SendEmailService,API_Regression,Visnu,API_Check,
+27,Y,API_EmailNotificationTemplateEdit_Test,SendEmailWithAttachment,API_Regression,Visnu,API_Check,

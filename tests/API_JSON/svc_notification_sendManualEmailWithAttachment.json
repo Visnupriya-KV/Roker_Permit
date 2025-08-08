@@ -1,0 +1,21 @@
+{
+  "mailSubject": "Permit Application Approved",
+  "fromEmail": "noreply@rokersmartpermits.com",
+  "toEmail": [
+    "DollyCole@yopmail.com"
+  ],
+  "language": "en",
+  "emailBody": "<p>Hi Virgie Oberbrunner, <br><br>Your TestrrR application 0AAAKIS has been approved. Your permit will start from 06/19/2025 to 06/26/2025.<br><br><a style=\"color:rgb(90, 90, 252)\" href=\"https://citycanada.app.develop.rokersmartpermits.com/smart-permits/permit-detail/MTkzNTE%3d/i\">Click here</a> to view your permit details.</p><p><br><br>Thank you! <br>Augusta University Medical Center</p><p><br>© 2025 Roker Inc, Technology by SP+.</p>",
+  "isPermitAttached": true,
+  "fileContent": [
+    null
+  ],
+  "fileNames": [
+    "Invoice_0AAAKIS.pdf",
+    "Permit_0AAAKIS.pdf"
+  ],
+  "attachmentURLs": [
+    "EmailAttachment/f503c269-efb4-4e6f-be0d-1868f823a6f2.pdf",
+    "EmailAttachment/5082586b-c30f-4315-ac1c-05e41f1ec2cb.pdf"
+  ]
+}
