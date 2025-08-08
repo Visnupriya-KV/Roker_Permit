@@ -1,0 +1,9 @@
+{
+  "mailSubject": "Test",
+  "emailBody": "<p>Test</p>",
+  "toEmail": [
+    "Kuhlman@yopmail.com"
+  ],
+  "notificationTemplateId": null,
+  "source": 1
+}

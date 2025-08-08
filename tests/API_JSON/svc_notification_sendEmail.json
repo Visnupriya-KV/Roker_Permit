@@ -1,0 +1,38 @@
+{
+  "notificationTemplateTitle": "CANCEL_ADMIN_PERMIT_APPLICATION",
+  "templateTokens": [
+    {
+      "token": "{UserName}",
+      "value": "Heaven Raynor"
+    },
+    {
+      "token": "{ApplicationNo}",
+      "value": "0AAAKIE"
+    },
+    {
+      "token": "{PermitType}",
+      "value": "TestrrR"
+    },
+    {
+      "token": "{RefundAmount}",
+      "value": "$0.00"
+    },
+    {
+      "token": "{Name}",
+      "value": "Citycanada"
+    },
+    {
+      "token": "{Reason}",
+      "value": "y"
+    },
+    {
+      "token": "{Year}",
+      "value": "2025"
+    }
+  ],
+  "mailSubject": "Welcome",
+  "fromEmail": "noreply@rokersmartpermits.com",
+  "toEmail": [
+    "HeavenRaynor@yopmail.com"
+  ]
+}

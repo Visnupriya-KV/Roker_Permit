@@ -1,0 +1,46 @@
+{
+  "notificationTemplateTitle": "AUTO_APPROVED_PERMIT_APPLICATION_FOR_ADMIN",
+  "mailSubject": "test",
+  "templateTokens": [
+    {
+      "token": "{UserName}",
+      "value": "Virgie Oberbrunner"
+    },
+    {
+      "token": "{StartDate}",
+      "value": "06/29/2025 02:02 AM"
+    },
+    {
+      "token": "{PermitNo}",
+      "value": "005YSSL"
+    },
+    {
+      "token": "{Name}",
+      "value": "Citycanada"
+    },
+    {
+      "token": "{PermitType}",
+      "value": "TestrrR"
+    },
+    {
+      "token": "{ApplicationNo}",
+      "value": "0AAAKIS"
+    },
+    {
+      "token": "{Year}",
+      "value": "2025"
+    },
+    {
+      "token": "{PermitHtml}",
+      "value": "<p>Hola Virgie Oberbrunner, <br><br>Tu solicitud de permiso ha sido creada y estará activa a partir del 06/29/2025 02:02 AM. </p><p>Para referencia, tu número de pedido es: {ApplicationNo}</p><p>Tu tipo de permiso es: TestrrR. </p><p>Por favor, contáctanos si tienes alguna pregunta adicional. <br></p><p>{PermitHtml}</p><p><br>¡Gracias! <br>Ciudad Canadá</p><p><br>© 2025 Roker Inc, Tecnología de SP+.</p>"
+    }
+  ],
+  "fromEmail": "noreply@rokersmartpermits.com",
+  "toEmail": [
+    "Dolly@yopmail.com"
+  ],
+  "fileContents": null,
+  "fileNames": [],
+  "attachmentURLs": [],
+  "language": null
+}
