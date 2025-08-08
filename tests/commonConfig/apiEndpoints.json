@@ -24,9 +24,14 @@
   "sendEmailWithAttachment": "https://api.develop.rokersmartpermits.com/notification/preference/sendEmailWithAttachment",
   "sendEmailService": "https://api.develop.rokersmartpermits.com/notification/preference/SendEmailService",
   "emailServiceList": "https://api.develop.rokersmartpermits.com/notification/preference/EmailServiceList",
-  "emailServiceStatusById": "https://api.develop.rokersmartpermits.com/notification/preference/EmailServiceStatus",
+  "emailServiceStatusById": "https://api.develop.roxkersmartpermits.com/notification/preference/EmailServiceStatus",
   "sendManualEmail": "https://api.develop.rokersmartpermits.com/notification/preference/sendManualEmail",
-  "sendManualEmailWithAttachment": "https://api.develop.rokersmartpermits.com/notification/preference/sendManualEmailWithAttachment"
-
+  "sendManualEmailWithAttachment": "https://api.develop.rokersmartpermits.com/notification/preference/sendManualEmailWithAttachment",
+  "notificationSettingsList": "https://api.develop.rokersmartpermits.com/notification/notificationsetting/list",
+  "updateNotificationSetting": "https://api.develop.rokersmartpermits.com/notification/notificationsetting/updatenotificationsetting",
+  "readAllWebNotifications": "https://api.develop.rokersmartpermits.com/notification/web/notification/readAll",
+  "clearAllWebNotifications": "https://api.develop.rokersmartpermits.com/notification/web/notification/clearAll",
+  "webNotificationList": "https://api.develop.rokersmartpermits.com/notification/web/notification/list",
+  "unreadWebNotificationList": "https://api.develop.rokersmartpermits.com/notification/web/notification/unread"
 
 }
