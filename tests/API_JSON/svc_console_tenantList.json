@@ -1,0 +1,13 @@
+{
+    "loginUrl": "https://citycanada.app.develop.rokersmartpermits.com/homepage/default",
+    "email": "kavyaanand021123@gmail.com",
+    "password": "Roker@2024",
+    "tokenEndpoint": "/connect/token",
+    "api": {
+      "tenantList": "https://api.develop.rokersmartpermits.com/poweradmin/tenant/list"
+    },
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "language": "en"
+    }
+  }

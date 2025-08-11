@@ -1,0 +1,11 @@
+{
+    "skip": 0,
+    "take": 10,
+    "sort": [
+      {
+        "field": "name",
+        "dir": "asc"
+      }
+    ]
+  }
+  

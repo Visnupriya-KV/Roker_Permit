@@ -1,0 +1,8 @@
+{
+  "startDate": "5/30/2025",
+  "endDate": "6/30/2025",
+  "customer": 1,
+  "paymentSource": 2,
+  "transactionType": 2,
+  "paymentMethod": 1
+}
