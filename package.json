@@ -69,7 +69,7 @@
     "allure-commandline": "^2.34.0",
     "allure-playwright": "^3.2.2",
     "eslint": "^8.x",
-    "nodemailer": "^7.0.3",
+    "nodemailer": "^7.0.6",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3",
     "vscode-test": "^1.x"
