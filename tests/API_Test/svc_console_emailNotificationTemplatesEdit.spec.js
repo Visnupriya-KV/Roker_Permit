@@ -1,8 +1,8 @@
 const { test, expect, request } = require('@playwright/test');
-const loginInfo = require('../commonConfig/loginInfo.json');
-const apiEndpoints = require('../commonConfig/apiEndpoints.json');
-const headers = require('../commonConfig/headers.json');
-const requestBody = require('../API_JSON/svc_console_emailNotificationTemplatesEdit.json');
+const loginInfo = require('../../utils/commonConfig/loginInfo.json');
+const apiEndpoints = require('../../utils/commonConfig/apiEndpoints.json');
+const headers = require('../../utils/commonConfig/headers.json');
+const requestBody = require('../../data/API_JSON/svc_console_emailNotificationTemplatesEdit.json');
 
 test('API_svcConsole_EmailNotificationTemplatesEdit_Test: Edit Email Notification Template API', async ({ page }) => {
   let accessToken = '';

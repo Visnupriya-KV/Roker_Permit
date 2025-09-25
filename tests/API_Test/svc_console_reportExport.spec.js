@@ -1,10 +1,10 @@
 const { test, expect, request } = require('@playwright/test');
 const fs = require('fs');
 const path = require('path');
-const loginInfo = require('../commonConfig/loginInfo.json');
-const apiEndpoints = require('../commonConfig/apiEndpoints.json');
-const headers = require('../commonConfig/headers.json');
-const reportExportRequestBody = require('../API_JSON/svc_console_reportExport.json');
+const loginInfo = require('../../utils/commonConfig/loginInfo.json');
+const apiEndpoints = require('../../utils/commonConfig/apiEndpoints.json');
+const headers = require('../../utils/commonConfig/headers.json');
+const reportExportRequestBody = require('../../data/API_JSON/svc_console_reportExport.json');
 
 test('API_ReportExport_Test: Report Export API', async ({ page }) => {
   let accessToken = '';

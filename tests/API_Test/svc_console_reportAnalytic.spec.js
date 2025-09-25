@@ -1,8 +1,8 @@
 const { test, expect, request } = require('@playwright/test');
-const loginInfo = require('../commonConfig/loginInfo.json');
-const apiEndpoints = require('../commonConfig/apiEndpoints.json');
-const headers = require('../commonConfig/headers.json');
-const reportRequestBody = require('../API_JSON/svc_console_reportAnalytic.json');
+const loginInfo = require('../../utils/commonConfig/loginInfo.json');
+const apiEndpoints = require('../../utils/commonConfig/apiEndpoints.json');
+const headers = require('../../utils/commonConfig/headers.json');
+const reportRequestBody = require('../../data/API_JSON/svc_console_reportAnalytic.json');
 
 test('API_ReportAnalytic_Test: Report Analytic API', async ({ page }) => {
   let accessToken = '';

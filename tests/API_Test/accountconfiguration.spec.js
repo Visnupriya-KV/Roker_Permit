@@ -1,5 +1,7 @@
 const { test, expect, request } = require('@playwright/test');
-const config = require('../API_JSON/accountconfiguration.json');
+const loginInfo = require('../../utils/commonConfig/loginInfo.json');
+const apiEndpoints = require('../../utils/commonConfig/apiEndpoints.json');
+const headers = require('../../utils/commonConfig/headers.json');
 
 test('API_AccountConfiguration_Test:Account Configuration API', async ({ page }) => {
   let accessToken = '';

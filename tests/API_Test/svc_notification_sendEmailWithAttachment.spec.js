@@ -1,8 +1,8 @@
 const { test, expect, request } = require('@playwright/test');
-const loginInfo = require('../commonConfig/loginInfo.json');
-const apiEndpoints = require('../commonConfig/apiEndpoints.json');
-const headers = require('../commonConfig/headers.json');
-const requestBody = require('../API_JSON/svc_notification_sendEmailWithAttachment.json');
+const loginInfo = require('../../utils/commonConfig/loginInfo.json');
+const apiEndpoints = require('../../utils/commonConfig/apiEndpoints.json');
+const headers = require('../../utils/commonConfig/headers.json');
+const requestBody = require('../../data/API_JSON/svc_notification_sendEmailWithAttachment.json');
 
 test('API_svcNotification_SendEmailWithAttachment_Test: Send Email Notification with Attachment API', async ({ page }) => {
   let accessToken = '';

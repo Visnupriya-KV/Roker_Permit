@@ -1,5 +1,7 @@
 const { test, expect, request } = require('@playwright/test');
-const config = require('../API_JSON/svc_Console_tenantList.json'); // Updated to use tenantList.json
+const loginInfo = require('../../utils/commonConfig/loginInfo.json');
+const apiEndpoints = require('../../utils/commonConfig/apiEndpoints.json');
+const headers = require('../../utils/commonConfig/headers.json');
 
 test('API_svcConsole_TenantList_Test: Tenant List API', async ({ page }) => {
   let accessToken = '';
