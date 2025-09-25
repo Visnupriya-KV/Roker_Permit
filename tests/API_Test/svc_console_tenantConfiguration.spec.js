@@ -1,8 +1,8 @@
 const { test, expect, request } = require('@playwright/test');
-const loginInfo = require('../commonConfig/loginInfo.json');
-const apiEndpoints = require('../commonConfig/apiEndpoints.json');
-const headers = require('../commonConfig/headers.json');
-const locCode = require('../API_JSON/svc_console_tenantConfiguration.json');
+const loginInfo = require('../../utils/commonConfig/loginInfo.json');
+const apiEndpoints = require('../../utils/commonConfig/apiEndpoints.json');
+const headers = require('../../utils/commonConfig/headers.json');
+const locCode = require('../../data/API_JSON/svc_console_tenantConfiguration.json');
 
 
 test('API_svcConsole_TenantConfiguration_Test: Tenant Configuration API', async ({ page }) => {
