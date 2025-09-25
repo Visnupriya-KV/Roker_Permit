@@ -1,5 +1,5 @@
 const { test, expect, request } = require('@playwright/test');
-const config = require('../API_JSON/svc_console_tenantStatusDel.json'); // Assuming the JSON file contains login and API details
+const config = require('../../data/API_JSON/svc_console_tenantStatusDel.json'); // Assuming the JSON file contains login and API details
 
 test('API_svcConsole_TenantStatusDelete_Test: Delete Tenant Status API', async ({ page }) => {
   let accessToken = '';
