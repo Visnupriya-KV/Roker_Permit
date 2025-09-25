@@ -53,15 +53,17 @@ async function sendReportEmail(status) {
     const currentDate = new Date();
     const formattedDate = currentDate.toISOString().split('T')[0]; // Format: YYYY-MM-DD
     const formattedTime = currentDate.toTimeString().split(' ')[0].replace(/:/g, ':'); // Format: HH-MM-SS
-    const dynamicFilename = `UAT_permit_${formattedDate}/${formattedTime}.html`;
+
+    const dynamicFilename = `DEV_Permit_${formattedDate}/${formattedTime}.html`;
 
     const mailOptions = {
         from: emailConfig.from,
         to: emailConfig.to,
-        subject: `UAT ROKER Permit TEST REPORT - ${status.toUpperCase()} - (${currentDateTime})`,
+
+        subject: `DEV ROKER Permit TEST REPORT - ${status.toUpperCase()} - (${currentDateTime})`,
         text: `Hi Team,
 
-UAT Roker Permit test execution has completed with the following details:
+DEV Roker Permit test execution has completed with the following details:
 
 Status: ${status.toUpperCase()}
 Total Tests: ${totalTests}
@@ -74,7 +76,9 @@ Please download and view the attached HTML report for full details.
 Regards,
 QA Automation`,
         html: `<p>Hi Team,</p>
-<p>UAT Roker Permit test execution has completed with the following details:</p>
+
+<p>DEV Roker Permit test execution has completed with the following details:</p>
+
 <ul>
     <li><b>Status:</b> ${status.toUpperCase()}</li>
     <li><b>Total Tests:</b> ${totalTests}</li>

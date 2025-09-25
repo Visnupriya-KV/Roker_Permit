@@ -4,7 +4,7 @@
     "password": "Autotest@123",
     "tokenEndpoint": "/connect/token",
     "api": {
-      "deleteTenantStatus": "https://api.staging.rokersmartpermits.com/poweradmin/tenant"
+      "deleteTenantStatus": "https://api.develop.rokersmartpermits.com/poweradmin/tenant"
     },
     "headers": {
       "accept": "application/json, text/plain, */*"
